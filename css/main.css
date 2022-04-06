@@ -265,5 +265,16 @@ textarea {
   margin: 0 auto;
 }
 .footer{
-  background: green;
+  background: #62b6cbff;
+  display: flex;
 }
+.copyRight{
+  opacity: 20%;
+}
+
+/* SCSS HEX
+$maximum-blue: #62b6cbff;
+$rosso-corsa: #d00000ff;
+$independence: #575366ff;
+$silver-pink: #b79d94ff;
+$yellow-green-crayola: #b9f18cff; */
