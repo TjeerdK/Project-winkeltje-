@@ -260,4 +260,10 @@ textarea {
     page-break-after: avoid;
   }
 }
-
+*{
+  padding: 0 auto;
+  margin: 0 auto;
+}
+.footer{
+  background: green;
+}
