@@ -86,6 +86,34 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.wrapper{
+  width: 75%;
+  margin: 0px auto;
+}
+.logo img{
+  width: 100px;
+}
+.header{
+  display: flex;
+  align-items: center;
+}
+header{
+  background-color: #b79d94ff;
+}
+.nav{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav a{
+  text-decoration: none;
+  color: #575366ff;
+}
+.maximum-blue {color: #62b6cbff;}
+.rosso-corsa{color: #d00000ff;} 
+.independence {color: #575366ff;}
+.silver-pink{color: #b79d94ff;}
+.yellow-green-crayola{color: #b9f18cff;}
 
 /* ==========================================================================
    Helper classes
