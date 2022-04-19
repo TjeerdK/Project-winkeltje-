@@ -20,7 +20,7 @@
                 </nav>
                 <div class="login">
                     <i class="fas fa-shopping-cart"></i>
-                    <i class="fas fa-user"></i>
+                    <a href="login.php"><i class="fas fa-user"></i></a> 
                     <i class="fas fa-heart"></i>
                 </div>
             </div>
