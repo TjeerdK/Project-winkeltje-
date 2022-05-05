@@ -146,7 +146,12 @@ table{
   width: 30vw;
   text-align: left;
 }
-
+.tag a{
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+  color: #575366ff;
+}
 .maximum-blue {color: #62b6cbff;}
 .rosso-corsa{color: #d00000ff;} 
 .independence {color: #575366ff;}

@@ -14,9 +14,9 @@
                     <img src="img/placeholder.jpg" alt="Logo">
                 </div>
                 <nav class="nav">
-                    <a href="">Mannen</a>
-                    <a href="">Vrouwen</a>
-                    <a href="">kinderen</a>
+                    <a href="index.php">Mannen</a>
+                    <a href="index.php">Vrouwen</a>
+                    <a href="index.php">kinderen</a>
                 </nav>
                 <div class="login">
                     <a href="winkelmandje.php"> <i class="fas fa-shopping-cart"></i></a>
