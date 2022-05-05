@@ -98,7 +98,7 @@ textarea {
   align-items: center;
 }
 header{
-  background-color: #b79d94ff;
+  background-color: #62b6cbff;
 }
 .nav{
   width: 400px;
@@ -109,12 +109,44 @@ header{
   text-decoration: none;
   color: #575366ff;
 }
+*{
+  padding: 0 auto;
+  margin: 0 auto;
+}
+.footer{
+  background: #62b6cbff;
+  display: flex;
+  justify-content: space-around;
+}
+.copyRight{
+  opacity: 20%;
+}
+.bottom{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.wow{
+  display: flex;
+}
+.border{
+  border: 3px solid black;
+  padding: 40px;
+  background: white;
+  width: 100%;
+}
+.border1{
+  border: 3px solid black;
+  padding: 40px;
+  background: white;
+  width: 75%;
+}
+
 .maximum-blue {color: #62b6cbff;}
 .rosso-corsa{color: #d00000ff;} 
 .independence {color: #575366ff;}
 .silver-pink{color: #b79d94ff;}
 .yellow-green-crayola{color: #b9f18cff;}
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -287,22 +319,6 @@ header{
   h3 {
     page-break-after: avoid;
   }
-}
-*{
-  padding: 0 auto;
-  margin: 0 auto;
-}
-.footer{
-  background: #62b6cbff;
-  display: flex;
-}
-.copyRight{
-  opacity: 20%;
-}
 
-/* SCSS HEX
-$maximum-blue: #62b6cbff;
-$rosso-corsa: #d00000ff;
-$independence: #575366ff;
-$silver-pink: #b79d94ff;
-$yellow-green-crayola: #b9f18cff; */
+
+}

@@ -25,3 +25,9 @@
                 </div>
             </div>
         </div>
+        <div class="wow">
+            <div class="border"></div>
+            <div class="border"></div>
+            <div class="border"></div>
+            <div class="border"></div>
+        </div>
