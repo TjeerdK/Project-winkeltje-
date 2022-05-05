@@ -141,6 +141,16 @@ header{
   background: white;
   width: 75%;
 }
+.Orders_main{
+  display: flex;
+  justify-content: center;
+}
+.Orders_table{
+  width: 50vw; 
+}
+.Orders_table_Headers{
+  text-align: left;
+}
 
 table{
   width: 30vw;
