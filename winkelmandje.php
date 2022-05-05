@@ -1,9 +1,10 @@
 <?php
-require_once('backend/conn.php')
+require_once('backend/conn.php');
+require_once('header.php');
 
 $winkelwagentje = [
-    6 => 2,
-    7 => 1,
+    2 => 2,
+    3 => 1,
 ];
 
 $hoeveelInWinkelwagentje = count($winkelwagentje);
@@ -26,9 +27,10 @@ $totalPrice = 0;
     <?php
 
         foreach($winkelwagentje as $productId => $amount){
-            $stmt = $db->prepare("SELECT * FROM products WHERE id = ". $productId .";");
-            $stmt->execute();
-            $product = $stmt->fetch(PDO::FETCH_ASSOC);
+            $query = ("SELECT * FROM products WHERE id = ". $productId .";");
+            $statement = $conn->prepare($query);
+            $statement->execute();
+            $product = $statement->fetch(PDO::FETCH_ASSOC);
             $totalProductPrice = $product['price'] * $amount;
             $totalPrice = $totalPrice + $totalProductPrice;
 
@@ -51,4 +53,13 @@ $totalPrice = 0;
         <td>&euro;<?php echo $totalPrice; ?>,-</td>
     </tr>
     </tbody>
+    
 </table>
+<div class="wrapper">
+    <div class="tag">
+        <a href="bestelpagina.php">bestellen</a>
+    </div>
+</div>
+<?php
+require_once('footer.php');
+?>
