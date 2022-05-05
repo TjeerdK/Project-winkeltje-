@@ -17,7 +17,7 @@
                 <th>price</th>
                 <th>stock</th>
                 <th>description</th>
-                <th>catagory</th>
+                <th>category</th>
                 <th>img_dir</th>
             </tr>    
             <?php foreach ($product as $p): ?>
@@ -26,8 +26,8 @@
                     <td><?php echo $p["price"];?></td>
                     <td><?php echo $p["stock"];?></td>
                     <td><?php echo $p["description"];?></td>
-                    <td><?php echo $p["catagory"];?></td>
-                    <td><?php echo $p["img_dir"];?></td>
+                    <td><?php echo $p["category"];?></td>
+                    <td class="logo"><img src="<?php echo $p["img_dir"];?>" alt="Albeelding"> </td>
             <?php endforeach ?>
         </table>
     </main>

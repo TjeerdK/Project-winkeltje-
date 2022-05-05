@@ -142,6 +142,11 @@ header{
   width: 75%;
 }
 
+table{
+  width: 30vw;
+  text-align: left;
+}
+
 .maximum-blue {color: #62b6cbff;}
 .rosso-corsa{color: #d00000ff;} 
 .independence {color: #575366ff;}
