@@ -27,7 +27,7 @@
                     <td><?php echo $p["stock"];?></td>
                     <td><?php echo $p["description"];?></td>
                     <td><?php echo $p["category"];?></td>
-                    <td><img src="<?php echo $p["img_dir"];?>" alt="Albeelding"> </td>
+                    <td class="logo"><img src="<?php echo $p["img_dir"];?>" alt="Albeelding"> </td>
             <?php endforeach ?>
         </table>
     </main>
