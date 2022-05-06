@@ -4,7 +4,7 @@
 ?>
     <main>
         <div class="wrapper">
-    <form action="../backend/tasksController.php" method="POST">
+    <form action="./backend/taskController.php" method="POST">
         <input type="hidden" name="action" value="update">
         <div class="form-group">
             <div class="form">
