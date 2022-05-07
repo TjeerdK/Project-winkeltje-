@@ -11,7 +11,7 @@
         <div class="wrapper">
             <div class="header">
                 <div class="logo">
-                    <img src="img/placeholder.jpg" alt="Logo">
+                    <a href="index.php"><img src="img/placeholder.jpg" alt="Logo"></a>
                 </div>
                 <nav class="nav">
                     <a href="index.php">Mannen</a>
@@ -31,3 +31,4 @@
             <div class="border"></div>
             <div class="border"></div>
         </div>
+    </header>

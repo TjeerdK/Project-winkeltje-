@@ -86,6 +86,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   *{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #575366ff;
+  }
+  body{
+    background: lightgray;
+  }
 .wrapper{
   width: 75%;
   margin: 0px auto;
@@ -152,8 +159,8 @@ header{
   text-align: left;
 }
 
-table{
-  width: 30vw;
+.winkelmandje table{
+  width: 40vw;
   text-align: left;
 }
 .tag a{
@@ -162,6 +169,52 @@ table{
   text-decoration: none;
   color: #575366ff;
 }
+.index_product{
+  display: flex;
+  flex-direction: column;
+  border: solid 2px #000;
+  margin: 10px;
+  width: 300px;
+  background-color: #b9f18cff;
+}
+.color{
+  background: lightgray;
+}
+.index_product a{
+  color: #d00000ff;
+  text-decoration: none;
+  font-size: 30;
+}
+.Products_main{
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+}
+.main_index{
+  display: flex;
+  width: 70%;
+  height: auto;
+  
+}
+.container_prodcut{
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  background-color: yellow;
+
+}
+.product_info{
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+.product_info_item p{
+  font-size: 20;
+}
+.product_info img{
+  width: 300px;
+}
+
 .maximum-blue {color: #62b6cbff;}
 .rosso-corsa{color: #d00000ff;} 
 .independence {color: #575366ff;}

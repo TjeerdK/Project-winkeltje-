@@ -14,7 +14,7 @@
     <?php
     require_once('backend/conn.php');
 
-            $query = "SELECT o.order_number, s.status, o.products, o.email_recipient
+            $query = "SELECT o.order_number, s.status,  o.email_recipient
             FROM orders o
 
             INNER JOIN status s 
@@ -35,11 +35,13 @@
                 <tr>
                     <td><?php echo $o["order_number"];?></td>
                     <td><?php echo $o["status"];?></td>
-                    <td><?php echo $o["products"];?></td>
+                    <td><?php echo "woep";?></td>
                     <td><?php echo $o["email_recipient"];?></td>
             <?php endforeach?>
         </table>
     </main>
-    
+    <div class="bottom">
+<?php require_once('footer.php')?>
+</div>
 </body>
 </html>
