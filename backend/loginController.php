@@ -16,11 +16,17 @@
     // var_dump($user['password']);
     if($statement->rowCount()<1)
     {
-        die("Error:accountbestaatniet");
+        $_SESSION['message'] = 'account bestaat niet';
+        var_dump($_SESSION['message']);
+        header("Location: ../login.php");
+        die();
     }
     if(!password_verify($password, $user['password']))
     {
-        die("Error:wachtwoordnietjuist!");
+        $_SESSION['message'] = 'wachtwoord niet juist';
+        var_dump($_SESSION['message']);
+        header("Location: ../login.php");
+        die();
     }
     $_SESSION['user_id'] = $user['id'];
     header("Location: ../bestellingen.php");

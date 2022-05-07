@@ -14,7 +14,7 @@
     <?php
     require_once('backend/conn.php');
 
-            $query = "SELECT o.order_number, s.status,  o.email_recipient
+            $query = "SELECT o.order_number, s.status, o.email_recipient
             FROM orders o
 
             INNER JOIN status s 

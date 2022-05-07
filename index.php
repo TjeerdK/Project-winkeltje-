@@ -20,12 +20,9 @@
             <div class="index_product">
                 <h2><a href="product.php?id=<?php echo $p['id']; ?>"><?php echo $p["title"];?></a></h2>
                 <p>Price: <?php echo $p["price"];?></p>
-                <p>In stock: <?php echo $p["stock"];?></p>
-                <p><?php echo $p["description"];?></p>
                 <p>category: <?php echo $p["name"];?></p>
-                <div class="logo">
                 <img  src="<?php echo $p["img_dir"];?>" alt="Albeelding">
-                </div>
+                
             </div>
             <?php endforeach ?>
         </div>

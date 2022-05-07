@@ -13,8 +13,10 @@
         <div class="product_info">
             <div class="product_info_item">
                 <h1><?php echo $product["title"];?></h1>
-                <P><?php echo $product["stock"];?></P>
-                <P><?php echo $product["description"];?></P>
+                <P><span class="product_info_item_color"> in stock:</span> <?php echo $product["stock"];?></P>
+                <P><span class="product_info_item_color"> Price:</span> <?php echo $product["price"];?></P>
+                <P class="product_info_item_color">description: </P>
+                <p><?php echo $product["description"];?></p>
             </div>
             <img  src="<?php echo $product["img_dir"];?>" alt="Albeelding_<?php echo $product["title"];?>">
         </div>
