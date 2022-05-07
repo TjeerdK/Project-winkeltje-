@@ -3,8 +3,7 @@ require_once('backend/conn.php');
 require_once('header.php');
 
 $winkelwagentje = [
-    1 => 2,
-    2 => 5,
+    2 => 2,
     3 => 1,
 ];
 
